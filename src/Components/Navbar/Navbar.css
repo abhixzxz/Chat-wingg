@@ -1,0 +1,111 @@
+.containerw {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right, #003300 0%, #99cc00 127%);
+
+}
+
+.logo-img {
+    height: 170px;
+    position: relative;
+    top: -57px;
+}
+
+.logo {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    margin-left: 180px;
+}
+
+.search {
+    position: relative;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    margin-left: 280px;
+    height: 40px;
+    width: 450px;
+    padding: 0px 16px;
+    margin-top: 20px;
+
+}
+
+.btnzz {
+    position: relative;
+    top: -156px;
+    color: #003300;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 35px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    margin-left: 750px;
+
+}
+
+.nav-text {
+    position: absolute;
+    margin-left: 930px;
+    color: #003300;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #fffcfc;
+    height: 40px;
+}
+
+.nav-text2 {
+    position: absolute;
+    margin-left: 1070px;
+    color: #fff;
+    top: 20px;
+    cursor: pointer;
+}
+
+.nav-text3 {
+    position: absolute;
+    margin-left: 1170px;
+    color: #fff;
+    font-size: 18px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#cart {
+    color: white;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 22px;
+    font-size: 25px;
+    top: -6px;
+    left: 960px;
+    cursor: pointer;
+}
+
+#search-icon {
+    position: relative;
+    top: -55px;
+    left: -220px;
+    font-size: larger;
+    color: #003300;
+    cursor: pointer;
+
+}
+
+#jj {
+    position: relative;
+    top: -53px;
+    border: none;
+    outline: none;
+    left: -190px;
+}
+
+#jj::placeholder {
+    color: #003300;
+}

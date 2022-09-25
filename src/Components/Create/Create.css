@@ -1,0 +1,46 @@
+.centerDiv {
+    background: rgba(0, 0, 0, 0.5);
+    width: max-content;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+
+.dog-bg {
+    height: 600px;
+    width: 1350px;
+}
+
+.inputzz {
+    padding: 10px;
+    height: 40px;
+    width: 320px;
+    border: none;
+    outline: none;
+    margin-top: -50px;
+
+}
+
+.uploadBtn {
+    margin-top: 30px;
+    width: 200px;
+    height: 48px;
+    /* border-color: transparent; */
+    color: black;
+    background-color: #99cc00;
+
+    font-weight: 900;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    margin-left: 70px;
+}
+
+.uploadBtn:hover {
+
+    background: #99cc00;
+    color: #2b653c;
+}
