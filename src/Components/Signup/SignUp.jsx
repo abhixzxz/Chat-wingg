@@ -2,12 +2,12 @@ import React from 'react'
 import { useState, useContext } from 'react'
 import { FirebaseContext } from '../store/FirebaseContext';
 import './Signup.css'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 function SignUp() {
 
-    const history = useHistory()
+    const Navigate = useNavigate()
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -24,7 +24,7 @@ function SignUp() {
                     username: username,
                     phone: phone
                 }).then(() => {
-                    history.push("/login")
+                    Navigate('/login')
 
                 })
 
