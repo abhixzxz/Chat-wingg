@@ -27,7 +27,7 @@ function Login() {
                             </p>
                             <p>
                                 <a>Forget password?</a>
-                                <a>Create an account.</a>
+                                <a>Create an account.</a>.
                             </p>
                         </form>
                     </div>
